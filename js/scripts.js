@@ -5,10 +5,15 @@ function beepBoop(input) {
   let numberString = "";
   for(counter = 0; counter <= input;  counter++) {
     counter = counter.toString();
-    if (counter !== '0') {
-      numberString = numberString.concat(", ")
+    if (counter.includes('1')) {
+      numberString = numberString.concat(", Beep!");
     }
-    numberString = numberString.concat(counter);
+    else {
+      if (counter !== '0') {
+        numberString = numberString.concat(", ")
+      }
+      numberString = numberString.concat(counter);
+    }
   }
   console.log(numberString)
 }
