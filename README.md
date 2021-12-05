@@ -15,3 +15,7 @@ Expect: "0, Beep!, 2, 3, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Beep!"
 Test: It should replace numbers that contain a 2 with 'Boop!'
 Code: beepBoop(12);
 Expect: "0, Beep!, Boop!, 3, 4, 5, 6, 7, 8, 9, Beep, Beep!, Boop!"
+
+Test: It should replace numbers that contain a 3 with 'Won't you be my neighbor?'
+Code: beepBoop(13);
+Expect: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?"
