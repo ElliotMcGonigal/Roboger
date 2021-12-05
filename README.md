@@ -11,3 +11,7 @@ Expect: "0, 1, 2, 3, 4, 5"
 Test: It should replace numbers that contain a 1 with 'Beep!'
 Code: beepBoop(12);
 Expect: "0, Beep!, 2, 3, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Beep!"
+
+Test: It should replace numbers that contain a 2 with 'Boop!'
+Code: beepBoop(12);
+Expect: "0, Beep!, Boop!, 3, 4, 5, 6, 7, 8, 9, Beep, Beep!, Boop!"
