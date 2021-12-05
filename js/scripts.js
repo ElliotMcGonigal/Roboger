@@ -3,7 +3,8 @@
 
 function beepBoop(input) {
   let numberString = "";
-  for(counter = 0; counter <= numberString;  counter++) {
+  for(counter = 0; counter <= input;  counter++) {
+    counter = counter.toString();
     if (counter !== '0') {
       numberString = numberString.concat(", ")
     }
