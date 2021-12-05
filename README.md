@@ -1,3 +1,31 @@
+# Project: Mr. Roboger's Neighborhood
+
+#### Project by Elliot McGonigal
+#### This Website will count up to a number replacing along the way.
+
+## Description
+This is a project that will take in a number and spout out organized nonsense based on what number you inputted. This serves no real purpose except to practice writing loop in javascript. 
+
+## Setup
+1. Set up a code environment (I use VSCode with Git Bash)
+2. Clone this repository
+3. Either use the Live Server addon to launch the website, or open index.html in your browser
+4. Enter a number into the blank to see it count out
+
+## Technologies Used
+- Javascript
+- jquery 3.6.0
+- bootstrap
+- html
+
+## Known Bugs
+No known bugs
+
+## License
+GNU gpl 3.0 view LICENSE for more details
+
+
+## Specs
 Describe: beepBoop()
 
 Test: It should return a 0 if the number 0 is inputted.
